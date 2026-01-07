@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kate Alphanso | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav>
+        <div class="logo">KA.</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#poetry">Poetry</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero-text">
+            <h1>Hi, I'm <span class="highlight">Kate Alphanso</span></h1>
+            <p>Computer Engineer | Jr. Data Scientist </p>
+            <p>Cyber Security Honours Graduate</p>
+            <a href="#work" class="cta-btn" style="margin-top:25px; display:inline-block;">View My Work</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/source/d5db78111638877.6041e3c3158b5.gif" alt="Illustration">
+        </div>
+    </header>
+
+    <div class="ocean">
+        <div class="wave wave-1"></div>
+        <div class="wave wave-2"></div>
+        <div class="wave wave-3"></div>
+    </div>
+
+    <section id="work">
+        <h2>My Creative <span class="highlight">Work</span></h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Netflix Recommender</h3>
+                <p>Agentic AI system using Python and Scikit-learn for movie recommendations.</p>
+            </div>
+            <div class="project-card">
+                <h3>Healthcare Chatbot</h3>
+                <p>Marathi-language symptom-based chatbot built with NLP.</p>
+            </div>
+            <div class="project-card">
+                <h3>Travel Planner</h3>
+                <p>Full-stack React app with budget and itinerary mapping.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical <span class="highlight">Expertise</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header"><span>AI & Data Science (Agentic AI, NLP)</span><span>95%</span></div>
+                <div class="skill-bar"><div class="skill-per" style="--w: 95%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header"><span>Cyber Security Honours</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-per" style="--w: 90%"></div></div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header"><span>Python, SQL & Tableau</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-per" style="--w: 85%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Professional <span class="highlight">Certifications</span></h2>
+        <div class="cert-grid">
+            <div class="cert-card">
+                <h4>Cybersecurity Professional</h4>
+                <p>Google Professional Certificate.</p>
+                <a href="https://www.credly.com/users/kate-alphanso" target="_blank" class="cert-link">Verify</a>
+            </div>
+            <div class="cert-card">
+                <h4>Gen AI Engineering</h4>
+                <p>Fine-Tuning Transformers (IBM).</p>
+                <a href="https://coursera.org/verify/Z9AWULXEBYKI" target="_blank" class="cert-link">Verify</a>
+            </div>
+            <div class="cert-card">
+                <h4>RAG & LangChain</h4>
+                <p>Generative AI Applications (IBM).</p>
+                <a href="https://coursera.org/verify/T80OJOPZ2GU9" target="_blank" class="cert-link">Verify</a>
+            </div>
+            <div class="cert-card">
+                <h4>English Proficiency</h4>
+                <p>C2 Proficient (78/100).</p>
+                <a href="https://cert.efset.org/sp7fAL" target="_blank" class="cert-link">Verify</a>
+            </div>
+        </div>
+    </section>
+
+
+    <h2 class="section-heading">Literary Space</h2>
+<div class="project-grid">
+    <div class="project-card">
+        <img src="https://i.pinimg.com/236x/47/16/23/4716238e99ddedfdcbc693894680e4a4.jpg" alt="Atonement" class="poem-img">
+        <h3>Sinner</h3>
+        <p>"He died the sinners death / Innocent blood shed..." </p>
+        <button class="cert-link" onclick="openPoem('Sinner', 'He died the sinners death\nInnocent blood shed\nHoly blood trickling down the filth\nCleansing my grimy sins\nAnother chance given to me\nThe one that I didn\'t deserve\nThe crown of thorns and\nCross that I deserved\nHe took it all for me\nFor the worthless me\nWhose life woven with\nUnholy tapestry\nSo tell me how\nHow do I cleanse myself?\nHow do I wash away the guilt?\nThe guilt that gnaws at my chest\nMy carefully crotcheted blanket\nOf guilt\nNow torn and ripped\nMy precisely drawn strings\nOf atonement\nNow loose and broken\n\nSo now Lord, sew me new again\nDraw my strings tight again\nAs I lay it bare in front of u\nPurge my tapestry with hyssop\nThat It shall be whiter than snow.....')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i.pinimg.com/750x/97/4d/98/974d9880cc69485bd7ed5d849cfe09ed.jpg" alt="Validation" class="poem-img">
+        <h3>Needy</h3>
+        <p>"Why do I Crave the validation of man / The felony my heart commits..." </p>
+        <button class="cert-link" onclick="openPoem('Needy', 'Why do I Crave the validation of man\nThe felony my heart commits\nTime and time again\nHave i no depth\nThat my soul floats\nIn those flattery words\nHave i no tranquil\nThat i need their appreciation\nTo lull my haywire heart\nThen hush now\nMy apprehensive self\nQuiet now\nMy approval seeking heart...')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i.pinimg.com/736x/67/65/3a/67653ad419f3bd4647dfcf4079e763c1.jpg" alt="Faith" class="poem-img">
+        <h3>Faith</h3>
+        <p>"Sometimes I wonder if I really completely / absolutely, entirely trust the lord?..."</p>
+        <button class="cert-link" onclick="openPoem('Faith', 'Sometimes I wonder if I really completely,\nabsolutely, entirely trust the lord?\nAnd the answer is human, I don\'t.\nI doubt him every step of the way. The seed of\ndoubt, that I water every moment and let it\ngrow into that tree of unbelief.\nIt burdens me, guilts me and tramples my\nconfidence. I want my faith to be like\nAbraham\'s.\nI want to trust him so\npreposterously that despite all the odds,\nmy god would stand up for me.\nI want to love him recklessly like he does\nme.\nFoolishly like he does me and\nirrationally like he does me....')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i5.walmartimages.com/seo/Blue-Abstract-Canvas-Wall-Art-Sea-Wave-Painting-Textured-Picture-Living-Room-Decor-Black-Grey-Modern-Print-Minimalist-Artwork-Framed-Poster-Home-Deco_b60312a7-ef64-485a-85b8-0cbdc7aeaff5.ae2f6c900d8ce33c06c8f0a72891c5c9.jpeg" alt="Painting Colours" class="poem-img">
+        <h3>Painting Colours</h3>
+        <p>"You've tore me apart / Humbled my pride..."</p>
+        <button class="cert-link" onclick="openPoem('Painting Colours', 'You\'ve tore me apart\nHumbled my pride\nDealt woefully with my hopes\nDulled my shine\nI\'m fathoming my state\nEmbracing my wounds\nIs this how you do\nYour lovers broken thorough\nSo you like them ruptured\nCapture like the fallen angel\nThen you paint them with passion\nThe grey disguised in colours\nPersuade the world\nTo love the colours\nMaking them believe\nThe incompetence of grey\nYour deceitful beauty\nBlinding them\nBelieving your fallacious colours\nVanishing greyy......')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://www.shutterstock.com/image-photo/curling-smoke-question-mark-overlay-600nw-2620478955.jpg" alt="What if" class="poem-img">
+        <h3>What if</h3>
+        <p>"What if today I forget / Every memory of you..."</p>
+        <button class="cert-link" onclick="openPoem('What if', 'What if today I forget\nEvery memory of you\nWhat if I forget all the pain you grew\nIn my fragile heart\nWouldn\'t that be lovely\nJust like old times\nWouldn\'t it be happy\nThe heart that never endured.\nWhat if i let go\nOf all the bitterness\nWhat if i push away\nMy heart felt agonies\nWouldn\'t that be healing\nMy bruised insides\nWouldn\'t it be blooming\nLike a peony so bright')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i.pinimg.com/1200x/90/e4/21/90e4218bd711d8e23250b6ef31974f3c.jpg" alt="Prodigal Son" class="poem-img">
+        <h3>Prodigal Son</h3>
+        <p>"And he asks you to come back / Begs his prodigal son..."</p>
+        <button class="cert-link" onclick="openPoem('Prodigal Son', 'And he asks you to come back\nBegs his prodigal son\nTo return home\nOh how he yearns\nFor a glimpse of his own\nRegardless of your betrayal\nNevermind your treachery\nForgives in a heartbeat\nAll he wants\nIs his beloved back\nOh how swiftly\nHe would let it go\nEvery deception long forgotten\nEven before your atonement\nArms wide open\nWaiting for that\nExuberant hug\nThe love so dear\nWashes the past\nPardons the transgressions\nEvery wound healed\nThe pain forgotten at last')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i.pinimg.com/1200x/f5/65/68/f56568a5a61703d389cbf9fcd7fec1cf.jpg" alt="Snow" class="poem-img">
+        <h3>Snow</h3>
+        <p>"The snow crushing under my boots / Wind seeping through my dress..."</p>
+        <button class="cert-link" onclick="openPoem('Snow', 'The snow crushing under my boots\nWind seeping through my dresss\nIts cold and aloof\nYet unfathomably true\nAlone in the deserted snow\nI feel my heart freeze and crumble\nBrittle with the cold\nUnable to withhold.....\nYet i feel\nThe urge to behold\nLay and make a snow Angel\nThe one we could mold......')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i.pinimg.com/1200x/ae/ee/f2/aeeef2c906b648f15f81362c7936e0bf.jpg" alt="My Delusion" class="poem-img">
+        <h3>My Delusion</h3>
+        <p>"You keep giving / But it's not love..."</p>
+        <button class="cert-link" onclick="openPoem('My Delusion', 'You keep giving\nBut it\'s not love\nExpensive gifts\nI don\'t deserve\nYou keep coming\nBut not to me\nIn my dreams\nI can only see\nYou keep smiling\nBut not at me\nIt\'s heartbreaking\nBut I cannot fleee\nYou keep doing\nThings to my heart\nWild it beats\nTears me apart\nThen you keep pretending\nTo not notice\nMy languished state\nAs I beg for an escape')">Read More</button>
+    </div>
+
+    <div class="project-card">
+        <img src="https://i.pinimg.com/236x/b6/14/bb/b614bbc684dc1c4c6d0167cc4ef9c48b.jpg" alt="Traitor" class="poem-img">
+        <h3>Traitor</h3>
+        <p>"I betray you everytime / I fear the unknown..."</p>
+        <button class="cert-link" onclick="openPoem('Traitor', 'I betray you everytime\nI fear the unknown\nI\'m a traitor everytime\nI turn my back on\nBut you take be back\nTime and time again\nMy treacherous heart\nRelentlessly gives you pain\nMy faith so little\nIt vanishes in fear\nMy love so selfish\nBegs you to be near\nBut it\'s just me\nI\'m just a human\nIn every distress\nIt is to you I run...\n-Kate')">Read More</button>
+    </div>
+</div>
+
+
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.poem-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project-card {
+  text-align: center;
+}
+</style>
+
+
+    <footer id="contact">
+        <div class="footer-content">
+            <h2>Get In <span class="highlight">Touch</span></h2>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/kate-alphanso-aloha" target="_blank" rel="noopener noreferrer">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="24">
+</a>
+
+                <a href="https://github.com/oceanblue0907" target="_blank">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="28">
+</a>
+
+            </div>
+            <div class="email-box">
+                <span id="email">katealphanso@gmail.com</span>
+                <button onclick="copyEmail()" id="copy-btn">Copy Email</button>
+            </div>
+            <p class="copyright">&copy; 2026 Kate Alphanso. Computer Engineer.</p>
+        </div>
+    </footer>
+<div id="poetry-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-modal" onclick="closePoem()">&times;</span>
+        <h3 id="modal-title">Poem Title</h3>
+        <div id="modal-body">Poem content goes here...</div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
